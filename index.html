@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <title>Ericsson</title>
+</head>
+<fieldset class="field_set">
+<legend>Admin Page</legend>
+<body>
+  <link rel="stylesheet" href="./css/style.css">
+  <header>Ericsson Dashboard</header>
+  <form>
+  <fieldset class="fields">
+    <legend class="domain">Select Domain Name</legend>
+    <select name="Domain Name">
+      <option value="RNC">RNC</option>
+      <option value="ENodeB">ENodeB</option>
+      <option value="NodeB">NodeB</option>
+    </select>
+    <br><br>
+</fieldset><br>
+<!-- Done with Domain Name -->
+<fieldset class="fields" >
+    <legend class="site">Select Site Name</legend>
+    <select name="Site Name">
+      <option value="RNC1" class="drop_down">RNC1</option>
+      <option value="RNC2" class="drop_down">RNC2</option>
+      <option value="RNC3" class="drop_down">RNC3</option>
+    </select>
+    <br><br>
+</fieldset>
+<br>
+<!-- Done with Site Name -->
+<fieldset class="fields">
+    <legend class="cell">Select Cell Name</legend>
+    <select name="Cell Name">
+      <option value="RNC001" class="drop_down">RNC001</option>
+      <option value="RNC002" class="drop_down">RNC002</option>
+      <option value="RNC003" class="drop_down">RNC003</option>
+    </select>
+    <br><br>
+</fieldset><br>
+<!-- Done with Cell Name -->
+<fieldset class="fields">
+    <legend class="parameter">Parameter Name</legend>
+      Parameter Name:<br>
+      <input type="text" name="parameter_name" placeholder="Enter Parameter Name" class="textfield"  ><br>
+    <br>
+</fieldset><br>
+<!-- Done with Enter Parameter -->
+
+<fieldset class="fields">
+    <legend class="RFC">RFC</legend>
+      RFC Number:<br>
+      <input type="text" name="rfc_number" placeholder="Enter RFC Number" class="textfield" ><br>
+    <br>
+</fieldset>
+<br>
+<button class="button">Submit</button>
+</form>
+</body>
+</fieldset>
+</html>
